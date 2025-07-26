@@ -5,7 +5,7 @@ import joblib
 from huggingface_hub import hf_hub_download
 
 # Download model from Hugging Face Hub
-model_path = hf_hub_download(repo_id="your-Leron7/loan-approval-model", filename="model.pkl")
+model_path = hf_hub_download(repo_id="Leron7/loan-approval-model", filename="model.pkl")
 
 # Load the model
 with open(model_path, "rb") as file:
